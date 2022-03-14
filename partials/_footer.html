@@ -1,0 +1,79 @@
+<!-- CONTAT FORM -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title fs-3" id="exampleModalLabel">
+          <i class="fas fa-envelope text-info"></i> Kontaktirajte nas
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+
+        <form method="POST" action="http://www.fulek.com/VUA/SUPIT/ContactUs">
+
+          <div class="mb-3">
+            <label for="name">Puno ime:</label>
+            <input type="text" id="name" name="name" class="form-control" required />
+          </div>
+  
+          <div class="my-3">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required />
+          </div>
+  
+          <label class="select">Važnost poruke:</label>
+          <div class="input-group mb-3">
+            <select name="importance" id="importance" class="form-select w-100">
+              <option value="1" selected>Visoka</option>
+              <option value="0">Niska</option>
+            </select>
+          </div>
+  
+          <div class="my-3">
+            <label class="select">Vaša poruka:</label>
+            <textarea name="message" id="message"
+              style="height: 100px"
+              class="form-control"
+              aria-label="With textarea"
+              required
+            ></textarea>
+          </div>
+  
+          <div class="input-group my-3">
+            <label class="form-check-label me-2">Primaj newsletter:</label>
+            <input type="checkbox" class="form-check-input" name="newsletter" id="newsletter" />
+          </div>
+  
+          <div class="modal-footer justify-content-start ps-0 border-0">
+            <button type="submit" class="btn btn-primary">Pošalji</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+              Odustani
+            </button>
+          </div>
+        </div>
+
+      </form>
+
+
+    </div>
+  </div>
+</div>
+<!-- // -->
+
+<footer>
+  <div class="zaiskri">BUDI IZVRSTAN U ONOME ŠTO VOLIŠ</div>
+  <div class="algebra-footer">ZAISKRI</div>
+</footer>
+<!-- // -->

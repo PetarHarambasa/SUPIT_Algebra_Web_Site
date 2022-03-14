@@ -1,0 +1,401 @@
+/* HTML */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding-top: 65px;
+}
+
+/* BOOTSTRAP */
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.bg-video {
+  display: grid;
+}
+
+.bg-video #footer > footer {
+  display: none;
+}
+
+.font-writing {
+  font-family: "Brush Script MT", cursive !important;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container-values {
+  padding: 45px 0px;
+}
+
+/* NAVBAR */
+.navbar-algebra {
+  padding: 10px 25px;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+}
+
+.navbar-algebra .navbar-brand > img {
+  width: 40px;
+}
+
+.navbar-algebra .nav-item > .nav-link {
+  margin: 0px 18px;
+  color: #fff;
+}
+
+.navbar-algebra .nav-item .nav-link > i {
+  color: orange;
+}
+
+.navbar-algebra .nav-item > .nav-link:hover {
+  color: yellow;
+}
+
+/* HOME */
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.typer {
+  width: 100%;
+  max-width: 650px;
+  padding: 15px;
+  margin: auto;
+}
+
+.typingFont {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.text-algebra {
+  text-shadow: none;
+  background: -webkit-linear-gradient(#c40f61, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px #333);
+}
+
+main.text {
+  display: flex;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: url("/assets/media/footer/zaiskri-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px black;
+  font-size: 44px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  flex-direction: column;
+}
+
+footer .algebra-footer {
+  color: red;
+}
+
+/* ABOUT US */
+
+#imgkampus {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#ourvalues,
+#history,
+#algebragroup,
+#gettous {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: red;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+  padding: 50px 0;
+}
+
+.coll {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  padding-top: 10px;
+  border-style: groove;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.colp {
+  border-top: groove;
+  padding-top: 10px;
+  text-transform: none;
+  font-weight: lighter;
+}
+
+.lightskyblue {
+  color: rgba(0, 119, 255, 0.616);
+}
+
+.partofcontainer {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.partofcontainer h6 {
+  font-size: 15px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px 0px;
+  border-bottom: 1px solid gray;
+}
+
+.partofcontainer img.smaller {
+  width: 100px;
+}
+
+.partofcontainer img.bigger {
+  width: 200px;
+}
+
+#gettousdiv {
+  width: 100%;
+  background-image: url("/assets/media/about/kakoDoNas.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#gmap_canvas {
+  height: 25vw;
+  width: 57vw;
+}
+
+#gettousdiv .card {
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  #gettousdiv .col-md-6 {
+    margin-top: 20px;
+  }
+}
+
+#locationtitle,
+#gettosutitle,
+#publictransporttitle,
+#transporttitle,
+#parkingtitle {
+  padding-right: 10px;
+  text-shadow: none;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#locationtitle {
+  padding-right: 20px;
+}
+
+#publictransporttitle {
+  padding-right: 20px;
+}
+
+#transporttitle {
+  padding-right: 20px;
+}
+
+#parkingtitle {
+  padding-right: 20px;
+}
+
+#publictransporttext,
+#transporttext,
+#parkingtext,
+#locationtext,
+#gettoustext {
+  text-align: left;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-shadow: none;
+  font-size: 15px;
+  color: black;
+}
+
+#car,
+#bus,
+#parking,
+#location,
+#commpas {
+  color: blue;
+}
+
+/* NEWS SELECTION */
+
+#about h2,
+#news h2,
+#curriculumn h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  padding: 20px;
+  border-bottom: 3px solid orange;
+}
+
+#newsContainer {
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  #newsContainer > div {
+    margin-top: 25px;
+  }
+}
+
+#news .circle-news {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+  box-shadow: 0 0 5px 2px #c2bfbf;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 16px solid #f3f3f3;
+  text-align: center;
+}
+
+#news a {
+  text-decoration: none;
+  display: block;
+}
+
+#news .circle-news h3 {
+  color: yellow;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: 1px 1px #000;
+}
+
+#news .circle-news p {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+}
+
+#bg-thumbnail {
+  height: 350px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+#bg-thumbnail > div {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0px 260px;
+}
+
+@media (max-width: 600px) {
+  #bg-thumbnail > div {
+    padding: 0px;
+  }
+
+  #images {
+    width: 100% !important;
+  }
+
+  #videos {
+    width: 100% !important;
+  }
+
+  #videos > video {
+    width: 100%;
+  }
+}
+
+#bg-thumbnail h3 {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+}
+
+.subtitle {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  padding: 20px;
+  border-bottom: 3px solid orange;
+}
+
+.el {
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.thumbnail-image {
+  width: 350px;
+  height: 110px;
+  border-radius: 5px;
+  opacity: 0.7;
+  transition: transform 0.7s ease;
+}
+
+.thumbnail-image:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+#videos {
+  width: 728px;
+}
+
+#images {
+  width: 730px;
+}
+
+/* CURRICULUMN */
+#namecollege {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
